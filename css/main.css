@@ -250,6 +250,9 @@ footer .social-icons p i{
 
 footer .copyright{
   margin: 20px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #527158;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -815,7 +818,7 @@ input[type=button] {
   .map figure{
     padding-bottom: 37.5%;
   }
-  
+
   .mission h2,
   .contact-section .content-wrapper h2{
     width: 95%;
@@ -828,16 +831,18 @@ input[type=button] {
   /* ==========================================================================
   FAQ Page
   ========================================================================== */
- 
   .faq h2 {
     width: 100%;
     font-size: 3em;
   }
+    
   .faq h4,
-  .faq p{
-    font-size: 1.125em;
-    line-height: 1;
+  .faq p {
+      font-size: 1.125em;
+      line-height: 1;
   }
+}
+  
 }
 
 
