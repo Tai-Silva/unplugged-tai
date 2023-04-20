@@ -252,7 +252,7 @@ footer .copyright{
   margin: 20px 0;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #527158;
+  
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -269,7 +269,7 @@ footer .copyright{
    flex-flow: row wrap;
 }
 .hero-area h1{
-  font-size: 2.25em;
+  font-size: 3em;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 1.2;
@@ -368,28 +368,15 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
 }
-.reviews h2{
+
+.reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
-  padding-left:  30px;
-  padding-right: 30px;
 }
-.reviews h3{
-  width:55%;
+
+.reviews h3 {
+  width: 55%;
   margin: 20px 0;
-  padding-top: 30px;
-  padding-left: 30px;
-}
-.reviews p{
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom:30px;
-  margin: 0;
-}
-.reviews img{
-  width: 90%;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 /* ==========================================================================
    About page
@@ -635,7 +622,7 @@ input[type=button] {
   .reviews h2{
     width: 85%;
   }
-
+  .reviews article figure,
   .reviews article div {
     width:49%;
   }
@@ -678,14 +665,22 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding: 20px;
   }
+ 
   .mission-content p{
     width: 45%;
+    
+  }
+  .map figure {
+    padding-bottom: 45.5%;
   }
   .contact-section .content-wrapper h2{
     width: 80%;
+    padding: 30px;
+
   }
+
   .contact-content{
     display: flex;
     justify-content: space-between;
